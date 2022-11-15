@@ -1,8 +1,6 @@
 // Head function
 
 const head = function(myArray) {
-  console.log(myArray[0]);
-  console.log(typeof myArray[0]);
   return myArray[0];
 };
 
