@@ -2,11 +2,13 @@
 const assertEqual = function(actual, expected) {
 
   if (actual === expected) {
-    console.log(String.fromCodePoint(0x2705) + String.fromCodePoint(0x2705) + String.fromCodePoint(0x2705) + "Assertion Passed: " + actual + " === " + expected);
+    const redCircle = String.fromCodePoint(0x2705);
+    console.log(`${redCircle}${redCircle}${redCircle}Assertion passed: ${actual} === ${expected}`);
     return;
   }
 
-  console.log(String.fromCodePoint(0x1F534) + String.fromCodePoint(0x1F534) + String.fromCodePoint(0x1F534) + "Assertion failed: " + actual + " !== " + expected);
+  const greenCheckmark = String.fromCodePoint(0x1F534);
+  console.log(`${greenCheckmark}${greenCheckmark}${greenCheckmark}Assertion failed: ${actual} !== ${expected}`);
   return;
 };
 
