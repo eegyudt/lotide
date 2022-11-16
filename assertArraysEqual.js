@@ -1,4 +1,4 @@
-// Implement assertArraysEqual - Lotide Problem
+// Implement asserArraysEqual - Lotide Problem
 
 const assertArraysEqual = function(actual, expected) {
 
@@ -22,8 +22,6 @@ const eqArrays = function(array1, array2) {
   }
   return equalArray;
 };
-
-
 
 
 // TEST CODE
