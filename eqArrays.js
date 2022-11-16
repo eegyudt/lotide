@@ -1,4 +1,4 @@
-// mplement eqArrays - Lotide Assignment
+// Implement eqArrays - Lotide Assignment
 const assertEqual = function(actual, expected) {
 
   if (actual === expected) {
