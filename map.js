@@ -49,4 +49,4 @@ const results3 = map(['on', 'a', 'sunny', 'day'], word => word[0]);
 
 // TEST CODE
 assertArraysEqual(results2, ['o', 't', 't', 'f']) // => should PASS
-assertArraysEqual(results3, ['o', 'a', 's', 'd']); // => should FAIL
+assertArraysEqual(results3, ['o', 'a', 's', 'd']); // => should PASS
