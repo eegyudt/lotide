@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@eegyudt/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lightsouse Labs Student project: lotide collection of functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/eegyudt/lotide.git"
   },
-  "author": "",
+  "author": "Eszter Egyud <eszter.egyud@telus.com>, Lighthouse Labs",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/eegyudt/lotide/issues"

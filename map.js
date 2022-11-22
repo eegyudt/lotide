@@ -10,13 +10,7 @@ const map = function(array, callback) {
   }
   return results;
 };
-// const results1 = map(words, word => word[0]);
 
-// console.log(results1);
-// console.log('TEST CASES');
-
-
-//testing the map function
 
 const assertArraysEqual = function(actual, expected) {
 
@@ -42,6 +36,15 @@ const eqArrays = function(array1, array2) {
   }
   return equalArray;
 };
+
+
+//testing the map function
+
+// const results1 = map(words, word => word[0]);
+
+// console.log(results1);
+// console.log('TEST CASES');
+
 
 // const results2 = map(['one', 'two', 'three', 'four'], word => word[0]);
 // const results3 = map(['on', 'a', 'sunny', 'day'], word => word[0]);

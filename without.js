@@ -31,6 +31,7 @@ const without = function(source, itemsToRemove) {
   newArray = newArray.filter((item) => !itemsToRemove.includes(item));
   console.log(newArray);
 };
+
 // TEST CODE
 
 // console.log(without([1, 2, 3], [1])); // => [2, 3] - Case 1.
