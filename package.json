@@ -1,6 +1,6 @@
 {
   "name": "@eegyudt/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightsouse Labs Student project: lotide collection of functions",
   "main": "assertArraysEqual.js",
   "directories": {

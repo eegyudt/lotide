@@ -26,22 +26,22 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `head(...)`: returns the first element of an array
-* `tail(...)`: removes the first element of an array and removes the new array
-* `middle(...)`: returns the middle element(s) of an array
-* `assertArraysEqual(...)`: asserts array equality
-* `assertEqual(...)`: assert equality
-* `assertObjectsEqual(...)`: asserts object equality
-* `countLetters(...)`: counts all instances of a character
-* `countOnly(...)`: counts all instances of an element
-* `eqArrays(...)`: checks if two arrays are equal
-* `eqObjects(...)`: checks if two objects are equal
-* `findKey(...)`: finds object property based on value
-* `findKeyByValue(...)`: finds object key based on value
-* `letterPositions(...)`: finds index of letter
-* `map(...)`: checks element based on index 
+* `assertArraysEqual(...)`: takes in two arrays and  their checking match, console.log an appropriate message to the console,
+* `assertEqual(...)`: compares the two values and prints out a message if they match or not
+* `assertObjectsEqual(...)`: take in two objects and  checking their match, console.log an appropriate message to the console
+* `countLetters(...)`: returns a count of each of the letters in a sentence
+* `countOnly(...)`: returns an object containing array elements and quantities for the elements in the input object
+* `eqArrays(...)`: takes in two arrays and returns true or false, based on a perfect match
+* `eqObjects(...)`: takes in two objects and returns true or false, based on a perfect match
+* `findKey(...)`: takes in an object and a callback and returns the first key for which the callback returns a truthy value
+* `findKeyByValue(...)`: takes in an object and a value and returns the first key which contains the given value.
+* `head(...)`: returns the first item in the array
+* `letterPositions(...)`: returns all the indices in the string where each character is found
+* `map(...)`: take in an array to map and a callback function and returns a new array based on the results of the callback function
+* `middle(...)`: takes in an array and return the middle-most element(s) of the given arra
 * `processargv(...)`: taking command line arguments
-* `reverse(...)`: reverst order of string
+* `reverse(...)`: reverse order of string
 * `sum(...)`: sum numbers entered in console
-* `takeUntil(...)`: returns an array of items until stopping element
-* `without(...)`: removes items from array
+* `tail(...)`: returns the "tail" of an array: everything except for the first item (head) of the array
+* `takeUntil(...)`: takes in an array and a callback function and returns a slice of the array with elements taken from the beginning until the predicate returns a truthy value
+* `without(...)`: returns a subset of a given array, removing unwanted elements
