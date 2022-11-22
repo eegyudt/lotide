@@ -32,21 +32,21 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-// TEST CASES
-assertEqual((findKey({
-  "Blue Hill": { stars: 1 },
-  "Akaleri": { stars: 3 },
-  "noma": { stars: 2 },
-  "elBulli": { stars: 3 },
-  "Ora": { stars: 2 },
-  "Akelarre": { stars: 3 }
-}, x => x.stars === 2)), "noma"); // => "noma";
+// //TEST CASES
+// assertEqual((findKey({
+//   "Blue Hill": { stars: 1 },
+//   "Akaleri": { stars: 3 },
+//   "noma": { stars: 2 },
+//   "elBulli": { stars: 3 },
+//   "Ora": { stars: 2 },
+//   "Akelarre": { stars: 3 }
+// }, x => x.stars === 2)), "noma"); // => "noma";
 
-assertEqual((findKey({
-  "Hilton": { stars: 5 },
-  "Hyatt": { stars: 5 },
-  "Best Western": { stars: 4 },
-  "Roadside Motel": { stars: 1 },
-  "Campground": { stars: 3 },
-  "Home": { stars: 5 }
-}, x => x.stars === 4)), "Best Western"); // => "Best Western";
+// assertEqual((findKey({
+//   "Hilton": { stars: 5 },
+//   "Hyatt": { stars: 5 },
+//   "Best Western": { stars: 4 },
+//   "Roadside Motel": { stars: 1 },
+//   "Campground": { stars: 3 },
+//   "Home": { stars: 5 }
+// }, x => x.stars === 4)), "Best Western"); // => "Best Western";

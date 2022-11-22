@@ -47,26 +47,26 @@ const eqObjects = function(object1, object2) {
 
 
 
-const ab = { a: "1", b: "2" };
-const ba = { b: "2", a: "1" };
-eqObjects(ab, ba); // => true
-console.log('eqObjects(ab, ba) ', eqObjects(ab, ba));
+// const ab = { a: "1", b: "2" };
+// const ba = { b: "2", a: "1" };
+// eqObjects(ab, ba); // => true
+// console.log('eqObjects(ab, ba) ', eqObjects(ab, ba));
 
-const abc = { a: "1", b: "2", c: "3" };
-eqObjects(ab, abc); // => false
-console.log('eqObjects(ab, abc) ', eqObjects(ab, abc));
+// const abc = { a: "1", b: "2", c: "3" };
+// eqObjects(ab, abc); // => false
+// console.log('eqObjects(ab, abc) ', eqObjects(ab, abc));
 
-// TEST CODE
-assertEqual(eqObjects(ab, ba), true);
-assertEqual(eqObjects(ab, abc), false);
-
-
-const cd = { c: "1", d: ["2", 3] };
-const dc = { d: ["2", 3], c: "1" };
-eqObjects(cd, dc); // => true
-assertEqual(eqObjects(cd, dc), true);
+// // TEST CODE
+// assertEqual(eqObjects(ab, ba), true);
+// assertEqual(eqObjects(ab, abc), false);
 
 
-const cd2 = { c: "1", d: ["2", 3, 4] };
-eqObjects(cd, cd2); // => false
-assertEqual(eqObjects(cd, cd2), false);
+// const cd = { c: "1", d: ["2", 3] };
+// const dc = { d: ["2", 3], c: "1" };
+// eqObjects(cd, dc); // => true
+// assertEqual(eqObjects(cd, dc), true);
+
+
+// const cd2 = { c: "1", d: ["2", 3, 4] };
+// eqObjects(cd, cd2); // => false
+// assertEqual(eqObjects(cd, cd2), false);

@@ -32,5 +32,5 @@ const countLetters = function(str) {
 };
 
 
-const result1 = countLetters("lighthouse in the house");
-console.log(result1);
+// const result1 = countLetters("lighthouse in the house");
+// console.log(result1);

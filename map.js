@@ -10,10 +10,10 @@ const map = function(array, callback) {
   }
   return results;
 };
-const results1 = map(words, word => word[0]);
+// const results1 = map(words, word => word[0]);
 
-console.log(results1);
-console.log('TEST CASES');
+// console.log(results1);
+// console.log('TEST CASES');
 
 
 //testing the map function
@@ -43,10 +43,10 @@ const eqArrays = function(array1, array2) {
   return equalArray;
 };
 
-const results2 = map(['one', 'two', 'three', 'four'], word => word[0]);
-const results3 = map(['on', 'a', 'sunny', 'day'], word => word[0]);
+// const results2 = map(['one', 'two', 'three', 'four'], word => word[0]);
+// const results3 = map(['on', 'a', 'sunny', 'day'], word => word[0]);
 
 
-// TEST CODE
-assertArraysEqual(results2, ['o', 't', 't', 'f']) // => should PASS
-assertArraysEqual(results3, ['o', 'a', 's', 'd']); // => should PASS
+// // TEST CODE
+// assertArraysEqual(results2, ['o', 't', 't', 'f']) // => should PASS
+// assertArraysEqual(results3, ['o', 'a', 's', 'd']); // => should PASS

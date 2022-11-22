@@ -33,33 +33,11 @@ const without = function(source, itemsToRemove) {
 };
 // TEST CODE
 
-console.log(without([1, 2, 3], [1])); // => [2, 3] - Case 1.
-console.log(without([1, 2, 3], [1, 2])); // => [3] - Case 2.
-console.log(without(["5", "6", "7"], [5, 6, "7"])); // => ["5", "6"] - Case 3.
+// console.log(without([1, 2, 3], [1])); // => [2, 3] - Case 1.
+// console.log(without([1, 2, 3], [1, 2])); // => [3] - Case 2.
+// console.log(without(["5", "6", "7"], [5, 6, "7"])); // => ["5", "6"] - Case 3.
 
-const words = ["hello", "world", "lighthouse"];
-without(words, ["lighthouse"]); // no need to capture return value for this test case
-// Make sure the original array was not altered by the without function
-assertArraysEqual(words, ["hello", "world", "lighthouse"]);
-
-
-
-//This solution doesn't work for case 2.
-// const without = function(source, itemsToRemove) {
-//   const newArray = [];
-//   let isFound = false;
-
-//   for (let i = 0; i < source.length; i++) {
-//     newArray.push(source[i]);
-//     for (let j = 0; j < itemsToRemove.length; j++) {
-
-//       if (source[i] === itemsToRemove[j]) {
-//         isFound = true;
-//       }
-//       if (isFound === true) {
-//         newArray.splice(i, 1);
-//       }
-//     }
-//   }
-//   return newArray;
-// };
+// const words = ["hello", "world", "lighthouse"];
+// without(words, ["lighthouse"]); // no need to capture return value for this test case
+// // Make sure the original array was not altered by the without function
+// assertArraysEqual(words, ["hello", "world", "lighthouse"]);

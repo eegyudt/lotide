@@ -42,21 +42,12 @@ const letterPositions = function(str) {
   return results;
 };
 
-const result1 = letterPositions("lighthouse in the house");
-console.log(result1);
+// const result1 = letterPositions("lighthouse in the house");
+// console.log(result1);
 
 
-// TEST CODE
-assertArraysEqual(letterPositions("hello").e, [1]); // => should PASS
-assertArraysEqual(letterPositions("banana").n, [2, 4]); // => should PASS
+// // TEST CODE
+// assertArraysEqual(letterPositions("hello").e, [1]); // => should PASS
+// assertArraysEqual(letterPositions("banana").n, [2, 4]); // => should PASS
 
-// for (const char of str) {
-//   if (char !== " ") {
-//     if (results[char]) {
-//       results[char].push(str.indexOf(char));
-//     } else {
-//       results[char] = [str.indexOf(char)];
-//     }
-//   }
-// }
 
